@@ -29,6 +29,69 @@ TARGET_LANGUAGES = [l for l in LANGUAGES if l != "en"]
 NOTIFICATION_COUNT = 35
 MAIN_COUNT = 7
 
+EN_GENERATION_PROMPT = """You write push notifications for "Memento" — a death countdown app that shows users exactly how much time they have left to live. Users opted IN to be confronted with mortality. This is not a wellness app.
+
+GENERATE {notif_count} notification quotes (English only).
+
+VOICE & TONE (study these real examples from the app):
+- Confrontational: "STILL ALIVE?", "NOT DEAD YET.", "Ready to die today?", "Will you scroll your life away?"
+- Dark wit: "Your inbox will outlive you.", "Social media won't attend your funeral.", "Your password will become a permanent secret."
+- Visceral: "Your cells are dying right now.", "Entropy always wins.", "Your scent will fade from your clothes."
+- Pointed questions: "How many times do you think you have left?", "Do you remember this day last year?", "When did you last really look at the moon?"
+- Direct commands: "Put the phone down.", "Make the call you've been avoiding.", "Write that letter."
+
+RULES:
+- Under 100 characters each. Shorter is better.
+- 1/3 confrontational (in-your-face, ALL CAPS ok), 1/3 dark/poetic observations, 1/3 pointed questions or commands
+- NO religious scripture, NO Buddhist terms, NO generic self-help ("cherish your time", "live your best life")
+- NO generic motivational poster language. If it could appear on a yoga studio wall, don't write it.
+- Each must be a complete grammatical thought
+- Must feel like it belongs alongside "Your shopping cart won't follow you to the grave" — not alongside "Believe in yourself"
+
+ALSO GENERATE {main_count} main quotes with authors.
+
+MAIN QUOTE RULES:
+- 1-3 sentences, weighty and memorable
+- For real historical figures: use their EXACT published English text (verifiable in Wikiquote/Gutenberg)
+- Author field required. Use "Anonymous" only for truly original quotes.
+- Prefer: Stoics (Seneca, Marcus Aurelius, Epictetus), existentialists (Camus, Heidegger), writers (Nabokov, Woolf, Borges, Montaigne), scientists (Feynman, Sagan)
+- NO Buddhist scripture. NO quotes you're unsure about — if you can't cite the exact source, write an original instead.
+
+THESE QUOTES ALREADY EXIST — do NOT duplicate or rephrase them:
+{existing_quotes}
+
+Return ONLY valid JSON (no markdown, no commentary):
+{{
+  "notification": ["quote1", ...{notif_count} total],
+  "main": [{{"text": "Exact quote text.", "author": "Author Name"}}, ...{main_count} total]
+}}"""
+
+TRANSLATION_PROMPT = """Translate these English quotes for a death countdown app into {lang_count} languages.
+
+SOURCE (English):
+notification: {notif_json}
+main: {main_json}
+
+TARGET LANGUAGES: {lang_list}
+
+TRANSLATION RULES:
+- Notification quotes must stay under 100 characters in each language
+- Preserve the TONE: confrontational, dark, visceral. Do NOT soften or sanitize.
+- ALL CAPS quotes should use the equivalent emphasis in each language (ALL CAPS where applicable)
+- For quotes by well-known authors (Seneca, Marcus Aurelius, etc.), use the canonical published translation in that language if one exists
+- Author names: use the standard form in each language (e.g., 塞涅卡 in zh, セネカ in ja)
+- "Anonymous" → translate to each language's equivalent (佚名, 匿名, Anonim, etc.)
+- Quality: must read as native-speaker writing, not machine translation
+
+Return ONLY valid JSON (no markdown):
+{{
+  "zh": {{
+    "notification": ["中文1", ...{notif_count}],
+    "main": [{{"text": "...", "author": "..."}}, ...{main_count}]
+  }},
+  ...all {lang_count} languages
+}}"""
+
 
 def get_current_week_id() -> str:
     """Return ISO week ID like '2026-W18'."""
@@ -80,12 +143,12 @@ def strip_markdown_fences(text: str) -> str:
     return text.strip()
 
 
-def chat(client: OpenAI, prompt: str, max_tokens: int = 4000) -> str:
+def chat(client: OpenAI, prompt: str, max_tokens: int = 4000, temperature: float = 0.7) -> str:
     """Send a chat completion request and return the text response."""
     response = client.chat.completions.create(
         model="gpt-4o",
         max_tokens=max_tokens,
-        temperature=0.9,
+        temperature=temperature,
         messages=[{"role": "user", "content": prompt}],
     )
     return response.choices[0].message.content.strip()
@@ -93,81 +156,58 @@ def chat(client: OpenAI, prompt: str, max_tokens: int = 4000) -> str:
 
 def generate_en_quotes(client: OpenAI, existing: set) -> dict:
     """Step 1: Generate EN quotes only."""
-    prompt = f"""Generate quotes for a memento mori / death countdown app. English only.
+    prompt = EN_GENERATION_PROMPT.format(
+        notif_count=NOTIFICATION_COUNT,
+        main_count=MAIN_COUNT,
+        existing_quotes=json.dumps(sorted(list(existing)), ensure_ascii=False),
+    )
+    text = chat(client, prompt, max_tokens=4000, temperature=0.7)
+    data = json.loads(strip_markdown_fences(text))
 
-PART A: {NOTIFICATION_COUNT} short notification quotes
-- Under 100 characters each
-- Themes: mortality awareness, time passing, living fully, impermanence, carpe diem
-- Tone: contemplative, thought-provoking, sometimes poetic — NOT depressing
-- Mix: original aphorisms, reworded classical wisdom, modern reflections
-- NO religious scripture or Buddhist terminology
-- Each must be grammatically complete
+    # Post-generation dedup: remove any that snuck through
+    clean_notifs = []
+    for q in data["notification"]:
+        if q.lower().strip() not in existing:
+            clean_notifs.append(q)
+        else:
+            print(f"  DEDUP: removed duplicate notification: {q}")
+    data["notification"] = clean_notifs
 
-PART B: {MAIN_COUNT} main quotes with authors
-- 1-3 sentences each, meaningful and profound
-- Include author name ("Anonymous" for originals)
-- Themes: mortality, time, meaning of life, legacy, living authentically
-- Mix: real historical figures (EXACT canonical text) and originals
-- NO Buddhist scripture
+    clean_main = []
+    for entry in data["main"]:
+        if entry["text"].lower().strip() not in existing:
+            clean_main.append(entry)
+        else:
+            print(f"  DEDUP: removed duplicate main: {entry['text'][:50]}")
+    data["main"] = clean_main
 
-Do NOT duplicate any of these existing quotes:
-{json.dumps(sorted(list(existing))[:50], ensure_ascii=False)}
-(first 50 of {len(existing)} existing)
-
-Return ONLY valid JSON (no markdown):
-{{
-  "notification": ["quote1", ...{NOTIFICATION_COUNT} total],
-  "main": [{{"text": "Quote text", "author": "Author"}}, ...{MAIN_COUNT} total]
-}}"""
-
-    text = chat(client, prompt, max_tokens=4000)
-    return json.loads(strip_markdown_fences(text))
+    return data
 
 
 def batch_translate(client: OpenAI, en_pack: dict, languages: list[str]) -> dict[str, dict]:
     """Step 2: Batch-translate EN→all target languages in one call."""
-    prompt = f"""Translate these English quotes into {len(languages)} languages.
-
-SOURCE (English):
-notification: {json.dumps(en_pack["notification"], ensure_ascii=False)}
-main: {json.dumps(en_pack["main"], ensure_ascii=False)}
-
-TARGET LANGUAGES: {', '.join(languages)}
-
-Rules:
-- Notification quotes must stay under 100 characters in each language
-- For quotes from well-known authors, use the canonical published translation if one exists
-- Author names: use the standard form in each language (e.g., 马可·奥勒留 in zh)
-- "Anonymous" → translate to each language's equivalent
-- Quality: natural, native-speaker level — no literal word-for-word translation
-
-Return ONLY valid JSON (no markdown). One key per language:
-{{
-  "zh": {{
-    "notification": ["中文1", ...{NOTIFICATION_COUNT}],
-    "main": [{{"text": "...", "author": "..."}}, ...{MAIN_COUNT}]
-  }},
-  "ja": {{
-    "notification": ["日本語1", ...],
-    "main": [...]
-  }},
-  ...all {len(languages)} languages
-}}"""
-
-    text = chat(client, prompt, max_tokens=16000)
+    prompt = TRANSLATION_PROMPT.format(
+        lang_count=len(languages),
+        notif_json=json.dumps(en_pack["notification"], ensure_ascii=False),
+        main_json=json.dumps(en_pack["main"], ensure_ascii=False),
+        lang_list=", ".join(languages),
+        notif_count=len(en_pack["notification"]),
+        main_count=len(en_pack["main"]),
+    )
+    text = chat(client, prompt, max_tokens=16000, temperature=0.3)
     return json.loads(strip_markdown_fences(text))
 
 
-def validate_lang_pack(lang: str, pack: dict) -> bool:
+def validate_lang_pack(lang: str, pack: dict, expected_notif: int, expected_main: int) -> bool:
     """Validate a single language pack."""
     notifs = pack.get("notification", [])
     mains = pack.get("main", [])
 
-    if len(notifs) != NOTIFICATION_COUNT:
-        print(f"ERROR: {lang} has {len(notifs)} notification quotes, expected {NOTIFICATION_COUNT}")
+    if len(notifs) != expected_notif:
+        print(f"ERROR: {lang} has {len(notifs)} notification quotes, expected {expected_notif}")
         return False
-    if len(mains) != MAIN_COUNT:
-        print(f"ERROR: {lang} has {len(mains)} main quotes, expected {MAIN_COUNT}")
+    if len(mains) != expected_main:
+        print(f"ERROR: {lang} has {len(mains)} main quotes, expected {expected_main}")
         return False
 
     for i, q in enumerate(notifs):
@@ -218,9 +258,12 @@ def main():
     # Step 1: Generate EN quotes
     print("Step 1: Generating English quotes...")
     en_pack = generate_en_quotes(client, existing)
-    if not validate_lang_pack("en", en_pack):
+    actual_notif = len(en_pack["notification"])
+    actual_main = len(en_pack["main"])
+    if actual_notif == 0 or actual_main == 0:
+        print(f"ERROR: After dedup, only {actual_notif} notification + {actual_main} main remain")
         sys.exit(1)
-    print(f"  {NOTIFICATION_COUNT} notification + {MAIN_COUNT} main quotes generated")
+    print(f"  {actual_notif} notification + {actual_main} main quotes (after dedup)")
 
     # Step 2: Batch translate to all other languages
     print(f"Step 2: Translating to {len(TARGET_LANGUAGES)} languages...")
@@ -233,7 +276,7 @@ def main():
             print(f"ERROR: Missing language '{lang}' in translations")
             all_valid = False
             continue
-        if not validate_lang_pack(lang, translations[lang]):
+        if not validate_lang_pack(lang, translations[lang], actual_notif, actual_main):
             all_valid = False
 
     if not all_valid:
@@ -254,8 +297,8 @@ def main():
     manifest["weeks"].append({
         "id": week_id,
         "url": f"weeks/week-{week_id}",
-        "notification_count": NOTIFICATION_COUNT,
-        "main_count": MAIN_COUNT,
+        "notification_count": actual_notif,
+        "main_count": actual_main,
     })
     save_manifest(manifest)
     print(f"Updated manifest with {week_id}")
