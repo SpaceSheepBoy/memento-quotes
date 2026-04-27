@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Generate weekly memento mori quotes using Claude API (Sonnet).
+"""Generate weekly memento mori quotes using OpenAI GPT-4o.
 
 Token-efficient: generates EN first, then batch-translates to 25 languages.
 Outputs per-language files: weeks/week-YYYY-WNN/en.json, zh.json, etc.
-Estimated cost: ~$0.02/week.
 """
 
 import json
@@ -12,7 +11,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import anthropic
+from openai import OpenAI
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = REPO_ROOT / "quotes" / "manifest.json"
@@ -71,8 +70,29 @@ def load_existing_en_quotes() -> set:
     return existing
 
 
-def generate_en_quotes(client: anthropic.Anthropic, existing: set) -> dict:
-    """Step 1: Generate EN quotes only (~1K tokens)."""
+def strip_markdown_fences(text: str) -> str:
+    """Remove markdown code fences if present."""
+    text = text.strip()
+    if text.startswith("```"):
+        text = text.split("\n", 1)[1]
+        if text.endswith("```"):
+            text = text[: text.rfind("```")]
+    return text.strip()
+
+
+def chat(client: OpenAI, prompt: str, max_tokens: int = 4000) -> str:
+    """Send a chat completion request and return the text response."""
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        max_tokens=max_tokens,
+        temperature=0.9,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return response.choices[0].message.content.strip()
+
+
+def generate_en_quotes(client: OpenAI, existing: set) -> dict:
+    """Step 1: Generate EN quotes only."""
     prompt = f"""Generate quotes for a memento mori / death countdown app. English only.
 
 PART A: {NOTIFICATION_COUNT} short notification quotes
@@ -100,21 +120,12 @@ Return ONLY valid JSON (no markdown):
   "main": [{{"text": "Quote text", "author": "Author"}}, ...{MAIN_COUNT} total]
 }}"""
 
-    response = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=4000,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    text = response.content[0].text.strip()
-    if text.startswith("```"):
-        text = text.split("\n", 1)[1]
-        if text.endswith("```"):
-            text = text[: text.rfind("```")]
-    return json.loads(text)
+    text = chat(client, prompt, max_tokens=4000)
+    return json.loads(strip_markdown_fences(text))
 
 
-def batch_translate(client: anthropic.Anthropic, en_pack: dict, languages: list[str]) -> dict[str, dict]:
-    """Step 2: Batch-translate EN→all target languages in one call (~4K tokens)."""
+def batch_translate(client: OpenAI, en_pack: dict, languages: list[str]) -> dict[str, dict]:
+    """Step 2: Batch-translate EN→all target languages in one call."""
     prompt = f"""Translate these English quotes into {len(languages)} languages.
 
 SOURCE (English):
@@ -143,17 +154,8 @@ Return ONLY valid JSON (no markdown). One key per language:
   ...all {len(languages)} languages
 }}"""
 
-    response = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=30000,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    text = response.content[0].text.strip()
-    if text.startswith("```"):
-        text = text.split("\n", 1)[1]
-        if text.endswith("```"):
-            text = text[: text.rfind("```")]
-    return json.loads(text)
+    text = chat(client, prompt, max_tokens=16000)
+    return json.loads(strip_markdown_fences(text))
 
 
 def validate_lang_pack(lang: str, pack: dict) -> bool:
@@ -194,12 +196,12 @@ def write_lang_pack(week_dir: Path, lang: str, pack: dict):
 
 
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
-        print("ERROR: ANTHROPIC_API_KEY environment variable not set")
+        print("ERROR: OPENAI_API_KEY environment variable not set")
         sys.exit(1)
 
-    client = anthropic.Anthropic(api_key=api_key)
+    client = OpenAI(api_key=api_key)
     week_id = get_current_week_id()
 
     # Check if this week already exists
