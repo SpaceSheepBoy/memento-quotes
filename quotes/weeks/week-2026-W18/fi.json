@@ -1,0 +1,68 @@
+{
+  "notification": [
+    "HENGITÄTKÖ VIELÄ?",
+    "KUINKA KAUKAN VOIT VÄLTTÄÄ VÄISTÄMÄTÖNTÄ?",
+    "TIK, TOK. AIKA KULUU.",
+    "Puhelimesi ei sure sinua.",
+    "Maailma pyörii ilman sinua.",
+    "Heijastuksesi himmenee.",
+    "Odotatko merkkiä?",
+    "Miksi ei tänään?",
+    "Teetkö eron?",
+    "Kirjoita tarinasi.",
+    "Soita jollekin, jota rakastat.",
+    "Suunnitelmasi eivät viivästytä kuolemaa.",
+    "Aikajanasi lyhenee.",
+    "Kehosi rappeutuu.",
+    "Tuhlaatko aikaa?",
+    "Miten sinut muistetaan?",
+    "Milloin nauroit viimeksi?",
+    "Hyväksy väistämätön.",
+    "Aikasi on rajallinen.",
+    "Perintösi on päättämätön.",
+    "Laske laite alas.",
+    "Sydämesi lyö viimeisen laskennan.",
+    "Varjosi pitenee.",
+    "Nauraasi kaikuu ajassa.",
+    "Näitkö varjosi tänään?",
+    "Ketä kaipaat?",
+    "Milloin oli viimeinen seikkailusi?",
+    "Pulssisi kiihtyy loppua kohti.",
+    "Entä jos tänään on se päivä?",
+    "Milloin tanssit viimeksi?",
+    "Muista kuolevaisuutesi.",
+    "Kuka muistaa sinut?",
+    "Minkä tarinan jätät?",
+    "Tämä hetki himmenee."
+  ],
+  "main": [
+    {
+      "text": "Elämä ei ole ongelma, joka on ratkaistava, vaan todellisuus, joka on koettava.",
+      "author": "Søren Kierkegaard"
+    },
+    {
+      "text": "Ihminen on ainoa olento, joka kieltäytyy olemasta sitä, mitä hän on.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Tutkimaton elämä ei ole elämisen arvoista.",
+      "author": "Sokrates"
+    },
+    {
+      "text": "Ei ole niin, että meillä olisi vähän aikaa elää, vaan että tuhlaamme siitä paljon.",
+      "author": "Seneca"
+    },
+    {
+      "text": "Elämä on sitä, mitä tapahtuu, kun olet kiireinen tekemään muita suunnitelmia.",
+      "author": "John Lennon"
+    },
+    {
+      "text": "Elämän tarkoitus ei ole olla onnellinen. Se on olla hyödyllinen.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "text": "Elämän kirjassa vastaukset eivät ole takana.",
+      "author": "Charles M. Schulz"
+    }
+  ]
+}

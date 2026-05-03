@@ -1,0 +1,68 @@
+{
+  "notification": [
+    "WCIĄŻ ODDYCHASZ?",
+    "JAK DŁUGO MOŻESZ UNIKAĆ NIEUNIKNIONEGO?",
+    "TIK, TAK. CZAS UCIEKA.",
+    "Twój telefon cię nie opłakuje.",
+    "Świat kręci się bez ciebie.",
+    "Twoje odbicie zanika.",
+    "Czekasz na znak?",
+    "Dlaczego nie dziś?",
+    "Czy zrobisz różnicę?",
+    "Napisz swoją historię.",
+    "Zadzwoń do kogoś, kogo kochasz.",
+    "Twoje plany nie opóźnią śmierci.",
+    "Twoja linia czasu się skraca.",
+    "Twoje ciało się rozkłada.",
+    "Marnujesz czas?",
+    "Jak będziesz zapamiętany?",
+    "Kiedy ostatnio się śmiałeś?",
+    "Przyjmij nieuniknione.",
+    "Twój czas jest ograniczony.",
+    "Twoje dziedzictwo jest niepewne.",
+    "Odłóż urządzenie.",
+    "Twoje serce bije ostatnie odliczanie.",
+    "Twój cień się wydłuża.",
+    "Twój śmiech odbija się w czasie.",
+    "Widziałeś dziś swój cień?",
+    "Kogo będziesz tęsknić?",
+    "Kiedy była twoja ostatnia przygoda?",
+    "Twój puls przyspiesza do końca.",
+    "Co jeśli dziś jest ten dzień?",
+    "Kiedy ostatnio tańczyłeś?",
+    "Pamiętaj o swojej śmiertelności.",
+    "Kto cię zapamięta?",
+    "Jaką historię zostawisz?",
+    "Ta chwila zanika."
+  ],
+  "main": [
+    {
+      "text": "Życie nie jest problemem do rozwiązania, lecz rzeczywistością do doświadczenia.",
+      "author": "Søren Kierkegaard"
+    },
+    {
+      "text": "Człowiek jest jedyną istotą, która odmawia bycia tym, czym jest.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Życie nieprzemyślane nie jest warte życia.",
+      "author": "Sokrates"
+    },
+    {
+      "text": "Nie chodzi o to, że mamy mało czasu na życie, ale że marnujemy go dużo.",
+      "author": "Seneka"
+    },
+    {
+      "text": "Życie to to, co się dzieje, gdy jesteś zajęty robieniem innych planów.",
+      "author": "John Lennon"
+    },
+    {
+      "text": "Celem życia nie jest być szczęśliwym. Jest być użytecznym.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "text": "W książce życia odpowiedzi nie są z tyłu.",
+      "author": "Charles M. Schulz"
+    }
+  ]
+}

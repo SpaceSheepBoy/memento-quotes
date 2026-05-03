@@ -1,0 +1,68 @@
+{
+  "notification": [
+    "HALA NEFES ALIYOR MUSUN?",
+    "KAÇINILMAZ OLANDAN NE KADAR KAÇABİLİRSİN?",
+    "TIK, TAK. ZAMAN AKIYOR.",
+    "Telefonun seni yas tutmayacak.",
+    "Dünya sensiz dönüyor.",
+    "Yansıman soluyor.",
+    "Bir işaret mi bekliyorsun?",
+    "Neden bugün değil?",
+    "Fark yaratacak mısın?",
+    "Hikayeni yaz.",
+    "Sevdiğin birini ara.",
+    "Planların ölümü geciktirmeyecek.",
+    "Zaman çizelgen kısalıyor.",
+    "Vücudun çürüyor.",
+    "Zaman mı harcıyorsun?",
+    "Nasıl hatırlanacaksın?",
+    "En son ne zaman güldün?",
+    "Kaçınılmazı kucakla.",
+    "Zamanın sınırlı.",
+    "Mirasın kararsız.",
+    "Cihazı bırak.",
+    "Kalbin son geri sayımı atıyor.",
+    "Gölgen uzuyor.",
+    "Kahkahan zaman içinde yankılanıyor.",
+    "Bugün gölgeni gördün mü?",
+    "Kimi özleyeceksin?",
+    "Son maceran ne zamandı?",
+    "Nabzın sona doğru hızlanıyor.",
+    "Ya bugün o günse?",
+    "En son ne zaman dans ettin?",
+    "Ölümünü hatırla.",
+    "Seni kim hatırlayacak?",
+    "Hangi hikayeyi bırakacaksın?",
+    "Bu an soluyor."
+  ],
+  "main": [
+    {
+      "text": "Hayat çözülmesi gereken bir sorun değil, deneyimlenmesi gereken bir gerçekliktir.",
+      "author": "Søren Kierkegaard"
+    },
+    {
+      "text": "İnsan, ne olduğunu reddeden tek yaratıktır.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Sorgulanmamış hayat yaşamaya değmez.",
+      "author": "Sokrates"
+    },
+    {
+      "text": "Yaşamak için kısa bir zamanımız yok, ama çoğunu boşa harcıyoruz.",
+      "author": "Seneca"
+    },
+    {
+      "text": "Hayat, başka planlar yaparken başımıza gelenlerdir.",
+      "author": "John Lennon"
+    },
+    {
+      "text": "Hayatın amacı mutlu olmak değil, faydalı olmaktır.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "text": "Hayat kitabında cevaplar arka tarafta değildir.",
+      "author": "Charles M. Schulz"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "notification": [
+    "TOUJOURS EN VIE?",
+    "COMBIEN DE TEMPS PEUX-TU ÉVITER L'INÉVITABLE?",
+    "TIC, TAC. LE TEMPS FILE.",
+    "Ton téléphone ne te pleurera pas.",
+    "Le monde tourne sans toi.",
+    "Ton reflet s'efface.",
+    "Attends-tu un signe?",
+    "Pourquoi pas aujourd'hui?",
+    "Feras-tu la différence?",
+    "Écris ton histoire.",
+    "Appelle quelqu'un que tu aimes.",
+    "Tes plans ne retarderont pas la mort.",
+    "Ta chronologie se raccourcit.",
+    "Ton corps se décompose.",
+    "Perds-tu du temps?",
+    "Comment seras-tu rappelé?",
+    "Quand as-tu ri pour la dernière fois?",
+    "Embrasse l'inévitable.",
+    "Ton temps est limité.",
+    "Ton héritage est indécis.",
+    "Pose l'appareil.",
+    "Ton cœur bat son dernier compte à rebours.",
+    "Ton ombre s'allonge.",
+    "Ton rire résonne dans le temps.",
+    "As-tu vu ton ombre aujourd'hui?",
+    "Qui te manquera?",
+    "Quand était ta dernière aventure?",
+    "Ton pouls s'accélère vers sa fin.",
+    "Et si aujourd'hui était le jour?",
+    "Quand as-tu dansé pour la dernière fois?",
+    "Souviens-toi de ta mortalité.",
+    "Qui se souviendra de toi?",
+    "Quelle histoire laisseras-tu?",
+    "Ce moment s'efface."
+  ],
+  "main": [
+    {
+      "text": "La vie n'est pas un problème à résoudre, mais une réalité à expérimenter.",
+      "author": "Søren Kierkegaard"
+    },
+    {
+      "text": "L'homme est le seul être qui refuse d'être ce qu'il est.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Une vie non examinée ne vaut pas la peine d'être vécue.",
+      "author": "Socrate"
+    },
+    {
+      "text": "Ce n'est pas que nous ayons peu de temps pour vivre, mais que nous en perdons beaucoup.",
+      "author": "Sénèque"
+    },
+    {
+      "text": "La vie, c'est ce qui arrive quand on est occupé à faire d'autres projets.",
+      "author": "John Lennon"
+    },
+    {
+      "text": "Le but de la vie n'est pas d'être heureux. C'est d'être utile.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "text": "Dans le livre de la vie, les réponses ne sont pas à la fin.",
+      "author": "Charles M. Schulz"
+    }
+  ]
+}

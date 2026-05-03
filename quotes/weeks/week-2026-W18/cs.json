@@ -1,0 +1,68 @@
+{
+  "notification": [
+    "STÁLE DÝCHÁŠ?",
+    "JAK DLOUHO SE VYHNEŠ NEVYHNUTELNÉMU?",
+    "TIK, TAK. ČAS UTÍKÁ.",
+    "Tvůj telefon tě nebude oplakávat.",
+    "Svět se točí bez tebe.",
+    "Tvůj odraz mizí.",
+    "Čekáš na znamení?",
+    "Proč ne dnes?",
+    "Uděláš rozdíl?",
+    "Napiš svůj příběh.",
+    "Zavolej někomu, koho miluješ.",
+    "Plány nezdrží smrt.",
+    "Tvůj čas se krátí.",
+    "Tvé tělo se rozkládá.",
+    "Plýtváš časem?",
+    "Jak budeš vzpomínán?",
+    "Kdy ses naposledy smál?",
+    "Přijmi nevyhnutelné.",
+    "Tvůj čas je omezený.",
+    "Tvůj odkaz není rozhodnut.",
+    "Odlož zařízení.",
+    "Tvůj srdce bije poslední odpočítávání.",
+    "Tvůj stín se prodlužuje.",
+    "Tvůj smích se ozývá v čase.",
+    "Viděl jsi dnes svůj stín?",
+    "Koho budeš postrádat?",
+    "Kdy bylo tvé poslední dobrodružství?",
+    "Tvůj puls se zrychluje k jeho konci.",
+    "Co když je to dnes?",
+    "Kdy jsi naposledy tančil?",
+    "Pamatuj na svou smrtelnost.",
+    "Kdo si tě bude pamatovat?",
+    "Jaký příběh zanecháš?",
+    "Tento okamžik mizí."
+  ],
+  "main": [
+    {
+      "text": "Život není problém, který je třeba vyřešit, ale realita, kterou je třeba zažít.",
+      "author": "Søren Kierkegaard"
+    },
+    {
+      "text": "Člověk je jediný tvor, který odmítá být tím, čím je.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Nezkoumaný život nestojí za to žít.",
+      "author": "Sokrates"
+    },
+    {
+      "text": "Není to tak, že máme málo času na život, ale že ho hodně promarníme.",
+      "author": "Seneca"
+    },
+    {
+      "text": "Život je to, co se děje, když jste zaneprázdněni plánováním jiných věcí.",
+      "author": "John Lennon"
+    },
+    {
+      "text": "Účel života není být šťastný. Je to být užitečný.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "text": "V knize života nejsou odpovědi vzadu.",
+      "author": "Charles M. Schulz"
+    }
+  ]
+}

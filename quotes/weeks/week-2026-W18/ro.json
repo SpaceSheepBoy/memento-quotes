@@ -1,0 +1,68 @@
+{
+  "notification": [
+    "ÎNCĂ RESPIRI?",
+    "CÂT DE MULT POȚI EVITA INEVITABILUL?",
+    "TIC, TAC. TIMPUL TRECE.",
+    "Telefonul tău nu te va plânge.",
+    "Lumea se învârte fără tine.",
+    "Reflexia ta se estompează.",
+    "Aștepți un semn?",
+    "De ce nu azi?",
+    "Vei face diferența?",
+    "Scrie-ți povestea.",
+    "Sună pe cineva drag.",
+    "Planurile tale nu vor întârzia moartea.",
+    "Cronologia ta se scurtează.",
+    "Corpul tău se descompune.",
+    "Irosești timpul?",
+    "Cum vei fi amintit?",
+    "Când ai râs ultima dată?",
+    "Îmbrățișează inevitabilul.",
+    "Timpul tău este finit.",
+    "Moștenirea ta este indecisă.",
+    "Pune dispozitivul jos.",
+    "Inima ta bate ultima numărătoare inversă.",
+    "Umbra ta se alungește.",
+    "Râsul tău răsună în timp.",
+    "Ți-ai văzut umbra azi?",
+    "Cine îți va lipsi?",
+    "Când a fost ultima ta aventură?",
+    "Pulsul tău se accelerează spre sfârșit.",
+    "Și dacă azi este ziua?",
+    "Când ai dansat ultima dată?",
+    "Amintește-ți de mortalitatea ta.",
+    "Cine își va aminti de tine?",
+    "Ce poveste vei lăsa?",
+    "Acest moment se estompează."
+  ],
+  "main": [
+    {
+      "text": "Viața nu este o problemă de rezolvat, ci o realitate de experimentat.",
+      "author": "Søren Kierkegaard"
+    },
+    {
+      "text": "Omul este singura creatură care refuză să fie ceea ce este.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Viața neexaminată nu merită trăită.",
+      "author": "Socrate"
+    },
+    {
+      "text": "Nu este că avem puțin timp să trăim, ci că pierdem mult din el.",
+      "author": "Seneca"
+    },
+    {
+      "text": "Viața este ceea ce se întâmplă când ești ocupat să faci alte planuri.",
+      "author": "John Lennon"
+    },
+    {
+      "text": "Scopul vieții nu este să fii fericit. Este să fii util.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "text": "În cartea vieții, răspunsurile nu sunt la sfârșit.",
+      "author": "Charles M. Schulz"
+    }
+  ]
+}
