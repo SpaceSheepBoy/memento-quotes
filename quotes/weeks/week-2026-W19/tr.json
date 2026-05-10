@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "Zamanınız tükeniyor.",
+    "Ne zaman ertelemeyi bırakacaksınız?",
+    "Gardırobunuz sizi yas tutmayacak.",
+    "Favori kitaplarınız tozlanacak.",
+    "Sandalyeniz bedeninizden uzun süre dayanacak.",
+    "Kaç gün batımınız kaldı?",
+    "Yıldızlara en son ne zaman baktınız?",
+    "Gerçekten neyi bekliyorsunuz?",
+    "Geçmişinizle barışın.",
+    "O arkadaşı şimdi arayın.",
+    "O özür mektubunu yazın.",
+    "YAŞIYOR MUSUNUZ YOKSA SADECE BEKLİYOR MUSUNUZ?",
+    "BUGÜNÜ DEĞERLİ KILACAK MISINIZ?",
+    "Eşyalarınız sizi özlemeyecek.",
+    "Bulutlar sizi hatırlamıyor.",
+    "Favori bardağınız kırılacak.",
+    "En son ne zaman canlı hissettiniz?",
+    "Bugün gerçekten yaşadınız mı?",
+    "Neden hala kaydırıyorsunuz?",
+    "Bugün korkularınızla yüzleşin.",
+    "Korktuğunuz sıçramayı yapın.",
+    "Pişmanlıklarınız sizinle birlikte ölmeyecek.",
+    "Rutininiz sizi hatırlamayacak.",
+    "Geçen yılın hayallerini hatırlıyor musunuz?",
+    "Sizi bu ana bağlayan nedir?",
+    "Kendiniz için mi yaşıyorsunuz?",
+    "HALA BURADA MISINIZ?",
+    "ZAMAN SİZİN YANINIZDA DEĞİL.",
+    "SİZİ GERİ TUTAN NEDİR?",
+    "Mobilyalarınız satılacak.",
+    "Sesiniz kaybolacak.",
+    "Gölgeniz sırlarınızı biliyor.",
+    "Hangi hikayeleri bırakacaksınız?"
+  ],
+  "main": [
+    {
+      "text": "Bir insanın korkması gereken ölüm değil, hiç yaşamaya başlamamaktan korkmasıdır.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "text": "Ölüm korkusu, yaşam korkusundan gelir. Tam anlamıyla yaşayan bir adam, her an ölmeye hazırdır.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "Hayat, ciddiye alınamayacak kadar önemlidir.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "Özgür olmayan bir dünyayla başa çıkmanın tek yolu, varlığınızın bir isyan eylemi olacak kadar mutlak özgür olmaktır.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "İyi organize edilmiş bir zihin için ölüm sadece bir sonraki büyük maceradır.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "Ölüm, doğanın yavaşlamanızı söyleme şeklidir.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "Son günümüz olarak korktuğumuz gün, sadece sonsuzluğun doğum günüdür.",
+      "author": "Seneca"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "Váš čas se krátí.",
+    "Kdy přestanete odkládat?",
+    "Vaše skříň vás nebude truchlit.",
+    "Vaše oblíbené knihy zapráší.",
+    "Vaše židle přežije vaše tělo.",
+    "Kolik západů slunce vám zbývá?",
+    "Kdy jste naposledy sledovali hvězdy?",
+    "Na co opravdu čekáte?",
+    "Uzavřete mír s minulostí.",
+    "Zavolejte příteli nyní.",
+    "Napište omluvný dopis.",
+    "ŽIJETE NEBO JEN ČEKÁTE?",
+    "UDĚLÁTE DNES ROZDÍL?",
+    "Vaše věci vás nebudou postrádat.",
+    "Mraky si vás nepamatují.",
+    "Váš oblíbený hrnek se rozbije.",
+    "Kdy jste se naposledy cítili naživu?",
+    "Žili jste dnes opravdu?",
+    "Proč stále procházíte?",
+    "Čelte svým strachům dnes.",
+    "Udělejte skok, který jste se báli.",
+    "Vaše lítosti s vámi nezemřou.",
+    "Vaše rutina si vás nepamatuje.",
+    "Pamatujete si sny z minulého roku?",
+    "Co vás váže k tomuto okamžiku?",
+    "Žijete pro sebe?",
+    "STÁLE TADY?",
+    "ČAS NENÍ NA VAŠÍ STRANĚ.",
+    "CO VÁS ZDRŽUJE?",
+    "Váš nábytek bude prodán.",
+    "Váš hlas zmizí.",
+    "Váš stín zná vaše tajemství.",
+    "Jaké příběhy zanecháte?"
+  ],
+  "main": [
+    {
+      "text": "Člověk by se neměl bát smrti, ale měl by se bát, že nikdy nezačne žít.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "text": "Strach ze smrti vychází ze strachu ze života. Člověk, který žije naplno, je připraven zemřít kdykoli.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "Život je příliš důležitý na to, aby byl brán vážně.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "Jediný způsob, jak se vypořádat s nesvobodným světem, je stát se tak absolutně svobodným, že samotná vaše existence je aktem vzpoury.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Pro dobře organizovanou mysl je smrt jen další velké dobrodružství.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "Smrt je způsob přírody, jak vám říct, abyste zpomalili.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "Den, který se bojíme jako náš poslední, je ve skutečnosti narozeninami věčnosti.",
+      "author": "Seneca"
+    }
+  ]
+}

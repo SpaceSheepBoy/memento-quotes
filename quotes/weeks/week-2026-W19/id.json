@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "Waktumu hampir habis.",
+    "Kapan kamu berhenti menunda?",
+    "Lemari pakaianmu tidak akan merindukanmu.",
+    "Buku favoritmu akan berdebu.",
+    "Kursimu akan bertahan lebih lama dari tubuhmu.",
+    "Berapa banyak matahari terbenam yang tersisa?",
+    "Kapan terakhir kali kamu melihat bintang?",
+    "Apa yang sebenarnya kamu tunggu?",
+    "Berdamailah dengan masa lalumu.",
+    "Hubungi teman itu sekarang.",
+    "Tulis surat permintaan maaf itu.",
+    "HIDUP ATAU HANYA MENUNGGU?",
+    "AKANKAH KAMU MEMBUAT HARI INI BERARTI?",
+    "Barang-barangmu tidak akan merindukanmu.",
+    "Awan tidak mengingatmu.",
+    "Cangkir favoritmu akan pecah.",
+    "Kapan terakhir kali kamu merasa hidup?",
+    "Apakah kamu benar-benar hidup hari ini?",
+    "Mengapa kamu masih menggulir?",
+    "Hadapi ketakutanmu hari ini.",
+    "Ambil lompatan yang kamu takuti.",
+    "Penyesalanmu tidak akan mati bersamamu.",
+    "Rutinitasmu tidak akan mengingatmu.",
+    "Bisakah kamu mengingat mimpi tahun lalu?",
+    "Apa yang mengikatmu pada saat ini?",
+    "Apakah kamu hidup untuk dirimu sendiri?",
+    "MASIH DI SINI?",
+    "WAKTU TIDAK BERPIHAK PADAMU.",
+    "APA YANG MENAHANMU?",
+    "Perabotanmu akan dijual.",
+    "Suaramu akan memudar.",
+    "Bayanganmu tahu rahasiamu.",
+    "Cerita apa yang akan kamu tinggalkan?"
+  ],
+  "main": [
+    {
+      "text": "Bukan kematian yang harus ditakuti seseorang, tetapi dia harus takut tidak pernah mulai hidup.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "text": "Ketakutan akan kematian berasal dari ketakutan akan hidup. Seorang pria yang hidup sepenuhnya siap untuk mati kapan saja.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "Hidup terlalu penting untuk dianggap serius.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "Satu-satunya cara untuk menghadapi dunia yang tidak bebas adalah menjadi begitu bebas sehingga keberadaanmu adalah tindakan pemberontakan.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Bagi pikiran yang terorganisir dengan baik, kematian hanyalah petualangan besar berikutnya.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "Kematian adalah cara alam memberi tahu Anda untuk melambat.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "Hari yang kita takuti sebagai yang terakhir hanyalah ulang tahun kekekalan.",
+      "author": "Seneca"
+    }
+  ]
+}

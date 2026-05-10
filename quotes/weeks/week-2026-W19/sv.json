@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "Din tid rinner ut.",
+    "När ska du sluta skjuta upp?",
+    "Din garderob kommer inte sörja dig.",
+    "Dina favoritböcker kommer samla damm.",
+    "Din stol kommer överleva din kropp.",
+    "Hur många solnedgångar har du kvar?",
+    "När tittade du senast på stjärnorna?",
+    "Vad väntar du egentligen på?",
+    "Gör fred med ditt förflutna.",
+    "Ring den vännen nu.",
+    "Skriv det där ursäktsbrevet.",
+    "LEVER DU ELLER VÄNTAR DU BARA?",
+    "KOMMER DU GÖRA IDAG BETYDELSEFULL?",
+    "Dina ägodelar kommer inte sakna dig.",
+    "Molnen minns inte dig.",
+    "Din favoritmugg kommer gå sönder.",
+    "När kände du dig senast levande?",
+    "Har du verkligen levt idag?",
+    "Varför bläddrar du fortfarande?",
+    "Möt dina rädslor idag.",
+    "Ta det språng du fruktar.",
+    "Dina ånger kommer inte dö med dig.",
+    "Din rutin kommer inte minnas dig.",
+    "Minns du förra årets drömmar?",
+    "Vad binder dig till detta ögonblick?",
+    "Lever du för dig själv?",
+    "FORTFARANDE HÄR?",
+    "TIDEN ÄR INTE PÅ DIN SIDA.",
+    "VAD HÅLLER DIG TILLBAKA?",
+    "Dina möbler kommer säljas.",
+    "Din röst kommer blekna.",
+    "Din skugga känner dina hemligheter.",
+    "Vilka historier kommer du lämna?"
+  ],
+  "main": [
+    {
+      "text": "Det är inte döden en man bör frukta, utan han bör frukta att aldrig börja leva.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "text": "Rädslan för döden följer av rädslan för livet. En man som lever fullt ut är beredd att dö när som helst.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "Livet är för viktigt för att tas på allvar.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "Det enda sättet att hantera en ofri värld är att bli så absolut fri att din blotta existens är en handling av uppror.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "För ett välorganiserat sinne är döden bara nästa stora äventyr.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "Döden är naturens sätt att säga åt dig att sakta ner.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "Dagen vi fruktar som vår sista är bara evighetens födelsedag.",
+      "author": "Seneca"
+    }
+  ]
+}

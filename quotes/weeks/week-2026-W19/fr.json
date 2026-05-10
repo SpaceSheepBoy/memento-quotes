@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "Votre temps s'écoule.",
+    "Quand cesserez-vous de remettre à plus tard?",
+    "Votre armoire ne vous pleurera pas.",
+    "Vos livres préférés prendront la poussière.",
+    "Votre chaise survivra à votre corps.",
+    "Combien de couchers de soleil vous reste-t-il?",
+    "Quand avez-vous regardé les étoiles pour la dernière fois?",
+    "Qu'attendez-vous vraiment?",
+    "Faites la paix avec votre passé.",
+    "Appelez cet ami maintenant.",
+    "Écrivez cette lettre d'excuses.",
+    "VIVRE OU JUSTE ATTENDRE?",
+    "FEREZ-VOUS COMPTER AUJOURD'HUI?",
+    "Vos affaires ne vous manqueront pas.",
+    "Les nuages ne se souviennent pas de vous.",
+    "Votre tasse préférée se cassera.",
+    "Quand vous êtes-vous senti vivant pour la dernière fois?",
+    "Avez-vous vraiment vécu aujourd'hui?",
+    "Pourquoi faites-vous encore défiler?",
+    "Affrontez vos peurs aujourd'hui.",
+    "Faites le saut que vous craignez.",
+    "Vos regrets ne mourront pas avec vous.",
+    "Votre routine ne se souviendra pas de vous.",
+    "Vous souvenez-vous des rêves de l'année dernière?",
+    "Qu'est-ce qui vous lie à ce moment?",
+    "Vivez-vous pour vous-même?",
+    "ENCORE LÀ?",
+    "LE TEMPS N'EST PAS DE VOTRE CÔTÉ.",
+    "QU'EST-CE QUI VOUS RETIENT?",
+    "Vos meubles seront vendus.",
+    "Votre voix s'effacera.",
+    "Votre ombre connaît vos secrets.",
+    "Quelles histoires laisserez-vous?"
+  ],
+  "main": [
+    {
+      "text": "Ce n'est pas la mort qu'un homme doit craindre, mais il doit craindre de ne jamais commencer à vivre.",
+      "author": "Marc Aurèle"
+    },
+    {
+      "text": "La peur de la mort découle de la peur de la vie. Un homme qui vit pleinement est prêt à mourir à tout moment.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "La vie est trop importante pour être prise au sérieux.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "La seule façon de traiter avec un monde non libre est de devenir si absolument libre que votre existence même est un acte de rébellion.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Pour un esprit bien organisé, la mort n'est que la prochaine grande aventure.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "La mort est la manière de la nature de vous dire de ralentir.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "Le jour que nous craignons comme notre dernier n'est que l'anniversaire de l'éternité.",
+      "author": "Sénèque"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "Aikasi on loppumassa.",
+    "Milloin lopetat lykkäämisen?",
+    "Vaatekaappisi ei sure sinua.",
+    "Lempikirjasi keräävät pölyä.",
+    "Tuolisi kestää kehosi kauemmin.",
+    "Kuinka monta auringonlaskua sinulla on jäljellä?",
+    "Milloin katsoit tähtiä viimeksi?",
+    "Mitä oikeasti odotat?",
+    "Tee rauha menneisyytesi kanssa.",
+    "Soita ystävällesi nyt.",
+    "Kirjoita se anteeksipyyntökirje.",
+    "ELÄTKÖ VAI VAIN ODOTATKO?",
+    "TEETKÖ TÄSTÄ PÄIVÄSTÄ MERKITYKSELLISEN?",
+    "Tavarasi eivät kaipaa sinua.",
+    "Pilvet eivät muista sinua.",
+    "Lempimukisi rikkoutuu.",
+    "Milloin tunsit viimeksi eläväsi?",
+    "Oletko todella elänyt tänään?",
+    "Miksi selaat edelleen?",
+    "Kohtaa pelkosi tänään.",
+    "Ota se hyppy, jota pelkäät.",
+    "Katkeruutesi ei kuole kanssasi.",
+    "Rutiinisi ei muista sinua.",
+    "Muistatko viime vuoden unelmat?",
+    "Mikä sitoo sinut tähän hetkeen?",
+    "Elätkö itsellesi?",
+    "VIELÄKÖ TÄÄLLÄ?",
+    "AIKA EI OLE PUOLELLASI.",
+    "MIKÄ PIDÄTTÄÄ SINUA?",
+    "Huonekalusi myydään.",
+    "Äänesi häipyy.",
+    "Varjosi tuntee salaisuutesi.",
+    "Mitä tarinoita jätät jälkeesi?"
+  ],
+  "main": [
+    {
+      "text": "Ihmisen ei pitäisi pelätä kuolemaa, vaan hänen pitäisi pelätä, ettei koskaan ala elää.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "text": "Kuoleman pelko seuraa elämän pelosta. Mies, joka elää täysin, on valmis kuolemaan milloin tahansa.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "Elämä on liian tärkeää otettavaksi vakavasti.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "Ainoa tapa käsitellä epävapaata maailmaa on tulla niin ehdottoman vapaaksi, että olemassaolosi on kapinan teko.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Hyvin järjestetylle mielelle kuolema on vain seuraava suuri seikkailu.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "Kuolema on luonnon tapa kertoa sinulle hidastaa.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "Päivä, jota pelkäämme viimeisenä, on vain ikuisuuden syntymäpäivä.",
+      "author": "Seneca"
+    }
+  ]
+}

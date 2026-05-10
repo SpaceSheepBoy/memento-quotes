@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "Ihre Zeit läuft ab.",
+    "Wann hören Sie auf zu verschieben?",
+    "Ihr Kleiderschrank wird Sie nicht betrauern.",
+    "Ihre Lieblingsbücher werden verstauben.",
+    "Ihr Stuhl wird Ihren Körper überdauern.",
+    "Wie viele Sonnenuntergänge bleiben Ihnen?",
+    "Wann haben Sie zuletzt die Sterne betrachtet?",
+    "Worauf warten Sie wirklich?",
+    "Schließen Sie Frieden mit Ihrer Vergangenheit.",
+    "Rufen Sie jetzt diesen Freund an.",
+    "Schreiben Sie diesen Entschuldigungsbrief.",
+    "LEBEN ODER NUR WARTEN?",
+    "WERDEN SIE HEUTE ZÄHLEN?",
+    "Ihre Besitztümer werden Sie nicht vermissen.",
+    "Die Wolken erinnern sich nicht an Sie.",
+    "Ihre Lieblingstasse wird zerbrechen.",
+    "Wann fühlten Sie sich zuletzt lebendig?",
+    "Haben Sie heute wirklich gelebt?",
+    "Warum scrollen Sie noch?",
+    "Stellen Sie sich heute Ihren Ängsten.",
+    "Springen Sie, wovor Sie sich fürchten.",
+    "Ihre Reue stirbt nicht mit Ihnen.",
+    "Ihre Routine erinnert sich nicht an Sie.",
+    "Erinnern Sie sich an die Träume des letzten Jahres?",
+    "Was bindet Sie an diesen Moment?",
+    "Leben Sie für sich selbst?",
+    "NOCH HIER?",
+    "DIE ZEIT IST NICHT AUF IHRER SEITE.",
+    "WAS HÄLT SIE ZURÜCK?",
+    "Ihre Möbel werden verkauft.",
+    "Ihre Stimme wird verblassen.",
+    "Ihr Schatten kennt Ihre Geheimnisse.",
+    "Welche Geschichten werden Sie hinterlassen?"
+  ],
+  "main": [
+    {
+      "text": "Der Mensch sollte nicht den Tod fürchten, sondern dass er nie anfängt zu leben.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "text": "Die Angst vor dem Tod folgt aus der Angst vor dem Leben. Ein Mensch, der voll lebt, ist bereit, jederzeit zu sterben.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "Das Leben ist zu wichtig, um es ernst zu nehmen.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "Der einzige Weg, mit einer unfreiheitlichen Welt umzugehen, besteht darin, so absolut frei zu werden, dass Ihre bloße Existenz ein Akt der Rebellion ist.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Für einen gut organisierten Geist ist der Tod nur das nächste große Abenteuer.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "Der Tod ist die Art der Natur, Ihnen zu sagen, dass Sie langsamer machen sollen.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "Der Tag, den wir als unseren letzten fürchten, ist nur der Geburtstag der Ewigkeit.",
+      "author": "Seneca"
+    }
+  ]
+}

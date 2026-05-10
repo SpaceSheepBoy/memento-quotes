@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "Seu tempo está acabando.",
+    "Quando você vai parar de adiar?",
+    "Seu guarda-roupa não vai te lamentar.",
+    "Seus livros favoritos acumularão poeira.",
+    "Sua cadeira durará mais que seu corpo.",
+    "Quantos pores do sol você tem restantes?",
+    "Quando você olhou para as estrelas pela última vez?",
+    "O que você realmente está esperando?",
+    "Faça as pazes com seu passado.",
+    "Ligue para aquele amigo agora.",
+    "Escreva aquela carta de desculpas.",
+    "VIVENDO OU APENAS ESPERANDO?",
+    "VOCÊ VAI FAZER HOJE VALER A PENA?",
+    "Seus pertences não sentirão sua falta.",
+    "As nuvens não se lembram de você.",
+    "Sua caneca favorita vai quebrar.",
+    "Quando você se sentiu vivo pela última vez?",
+    "Você realmente viveu hoje?",
+    "Por que você ainda está rolando?",
+    "Enfrente seus medos hoje.",
+    "Dê o salto que você teme.",
+    "Seus arrependimentos não morrerão com você.",
+    "Sua rotina não se lembrará de você.",
+    "Você se lembra dos sonhos do ano passado?",
+    "O que te prende a este momento?",
+    "Você está vivendo para si mesmo?",
+    "AINDA AQUI?",
+    "O TEMPO NÃO ESTÁ DO SEU LADO.",
+    "O QUE TE IMPEDE?",
+    "Seus móveis serão vendidos.",
+    "Sua voz desaparecerá.",
+    "Sua sombra conhece seus segredos.",
+    "Quais histórias você deixará?"
+  ],
+  "main": [
+    {
+      "text": "Não é a morte que um homem deve temer, mas ele deve temer nunca começar a viver.",
+      "author": "Marco Aurélio"
+    },
+    {
+      "text": "O medo da morte decorre do medo da vida. Um homem que vive plenamente está preparado para morrer a qualquer momento.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "A vida é importante demais para ser levada a sério.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "A única maneira de lidar com um mundo não livre é tornar-se tão absolutamente livre que sua própria existência seja um ato de rebelião.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Para uma mente bem organizada, a morte é apenas a próxima grande aventura.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "A morte é a maneira da natureza de te dizer para desacelerar.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "O dia que tememos como nosso último é apenas o aniversário da eternidade.",
+      "author": "Sêneca"
+    }
+  ]
+}

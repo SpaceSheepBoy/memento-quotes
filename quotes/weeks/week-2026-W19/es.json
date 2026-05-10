@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "Tu tiempo se agota.",
+    "¿Cuándo dejarás de posponer?",
+    "Tu armario no te llorará.",
+    "Tus libros favoritos acumularán polvo.",
+    "Tu silla sobrevivirá a tu cuerpo.",
+    "¿Cuántas puestas de sol te quedan?",
+    "¿Cuándo viste las estrellas por última vez?",
+    "¿Qué estás esperando realmente?",
+    "Haz las paces con tu pasado.",
+    "Llama a ese amigo ahora.",
+    "Escribe esa carta de disculpa.",
+    "¿VIVIENDO O SOLO ESPERANDO?",
+    "¿HARÁS QUE HOY CUENTE?",
+    "Tus pertenencias no te extrañarán.",
+    "Las nubes no te recuerdan.",
+    "Tu taza favorita se romperá.",
+    "¿Cuándo te sentiste vivo por última vez?",
+    "¿Has vivido realmente hoy?",
+    "¿Por qué sigues desplazándote?",
+    "Enfrenta tus miedos hoy.",
+    "Da el salto que temes.",
+    "Tus arrepentimientos no morirán contigo.",
+    "Tu rutina no te recordará.",
+    "¿Recuerdas los sueños del año pasado?",
+    "¿Qué te ata a este momento?",
+    "¿Vives para ti mismo?",
+    "¿TODAVÍA AQUÍ?",
+    "EL TIEMPO NO ESTÁ DE TU LADO.",
+    "¿QUÉ TE DETIENE?",
+    "Tus muebles se venderán.",
+    "Tu voz se desvanecerá.",
+    "Tu sombra conoce tus secretos.",
+    "¿Qué historias dejarás?"
+  ],
+  "main": [
+    {
+      "text": "No es la muerte lo que un hombre debe temer, sino que debe temer nunca comenzar a vivir.",
+      "author": "Marco Aurelio"
+    },
+    {
+      "text": "El miedo a la muerte sigue al miedo a la vida. Un hombre que vive plenamente está preparado para morir en cualquier momento.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "La vida es demasiado importante para tomarla en serio.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "La única manera de lidiar con un mundo no libre es volverse tan absolutamente libre que tu misma existencia sea un acto de rebelión.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Para una mente bien organizada, la muerte es solo la siguiente gran aventura.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "La muerte es la manera de la naturaleza de decirte que disminuyas la velocidad.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "El día que tememos como nuestro último es solo el cumpleaños de la eternidad.",
+      "author": "Séneca"
+    }
+  ]
+}

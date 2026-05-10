@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "Il tuo tempo sta scadendo.",
+    "Quando smetterai di rimandare?",
+    "Il tuo armadio non ti piangerà.",
+    "I tuoi libri preferiti accumuleranno polvere.",
+    "La tua sedia durerà più del tuo corpo.",
+    "Quanti tramonti ti restano?",
+    "Quando hai guardato le stelle l'ultima volta?",
+    "Cosa stai veramente aspettando?",
+    "Fai pace con il tuo passato.",
+    "Chiama quell'amico ora.",
+    "Scrivi quella lettera di scuse.",
+    "VIVI O STAI SOLO ASPETTANDO?",
+    "FARAI CONTARE OGGI?",
+    "I tuoi beni non ti mancheranno.",
+    "Le nuvole non ti ricordano.",
+    "La tua tazza preferita si romperà.",
+    "Quando ti sei sentito vivo l'ultima volta?",
+    "Hai vissuto veramente oggi?",
+    "Perché stai ancora scorrendo?",
+    "Affronta le tue paure oggi.",
+    "Fai il salto che temi.",
+    "I tuoi rimpianti non moriranno con te.",
+    "La tua routine non ti ricorderà.",
+    "Ricordi i sogni dell'anno scorso?",
+    "Cosa ti lega a questo momento?",
+    "Vivi per te stesso?",
+    "ANCORA QUI?",
+    "IL TEMPO NON È DALLA TUA PARTE.",
+    "COSA TI TRATTIENE?",
+    "I tuoi mobili saranno venduti.",
+    "La tua voce svanirà.",
+    "La tua ombra conosce i tuoi segreti.",
+    "Quali storie lascerai?"
+  ],
+  "main": [
+    {
+      "text": "Non è la morte che un uomo dovrebbe temere, ma dovrebbe temere di non cominciare mai a vivere.",
+      "author": "Marco Aurelio"
+    },
+    {
+      "text": "La paura della morte deriva dalla paura della vita. Un uomo che vive pienamente è pronto a morire in qualsiasi momento.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "La vita è troppo importante per essere presa sul serio.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "L'unico modo per affrontare un mondo non libero è diventare così assolutamente libero che la tua stessa esistenza è un atto di ribellione.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Per una mente ben organizzata, la morte è solo la prossima grande avventura.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "La morte è il modo della natura di dirti di rallentare.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "Il giorno che temiamo come l'ultimo è solo il compleanno dell'eternità.",
+      "author": "Seneca"
+    }
+  ]
+}

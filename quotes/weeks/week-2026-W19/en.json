@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "YOUR TIME IS TICKING AWAY.",
+    "WHEN WILL YOU STOP POSTPONING?",
+    "Your wardrobe won't mourn you.",
+    "Your favorite books will gather dust.",
+    "Your chair will outlast your body.",
+    "How many sunsets do you have left?",
+    "When did you last watch the stars?",
+    "What are you really waiting for?",
+    "Make peace with your past.",
+    "Call that friend now.",
+    "Write that apology letter.",
+    "LIVING OR JUST WAITING?",
+    "WILL YOU MAKE TODAY COUNT?",
+    "Your belongings won't miss you.",
+    "The clouds don't remember you.",
+    "Your favorite mug will break.",
+    "When did you last feel alive?",
+    "Have you truly lived today?",
+    "Why are you still scrolling?",
+    "Face your fears today.",
+    "Take the leap you've feared.",
+    "Your regrets won't die with you.",
+    "Your routine won't remember you.",
+    "Can you recall last year's dreams?",
+    "What binds you to this moment?",
+    "Are you living for yourself?",
+    "STILL HERE?",
+    "TIME IS NOT ON YOUR SIDE.",
+    "WHAT HOLDS YOU BACK?",
+    "Your furniture will be sold.",
+    "Your voice will fade away.",
+    "Your shadow knows your secrets.",
+    "What stories will you leave?"
+  ],
+  "main": [
+    {
+      "text": "It is not death that a man should fear, but he should fear never beginning to live.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "text": "The fear of death follows from the fear of life. A man who lives fully is prepared to die at any time.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "Life is too important to be taken seriously.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "To the well-organized mind, death is but the next great adventure.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "Death is nature’s way of telling you to slow down.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "The day which we fear as our last is but the birthday of eternity.",
+      "author": "Seneca"
+    }
+  ]
+}

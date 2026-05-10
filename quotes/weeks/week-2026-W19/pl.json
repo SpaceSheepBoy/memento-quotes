@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "Twój czas się kończy.",
+    "Kiedy przestaniesz odkładać?",
+    "Twoja szafa nie będzie cię opłakiwać.",
+    "Twoje ulubione książki zbiorą kurz.",
+    "Twoje krzesło przetrwa twoje ciało.",
+    "Ile zachodów słońca ci zostało?",
+    "Kiedy ostatnio patrzyłeś na gwiazdy?",
+    "Na co naprawdę czekasz?",
+    "Pogódź się z przeszłością.",
+    "Zadzwoń do tego przyjaciela teraz.",
+    "Napisz ten list z przeprosinami.",
+    "ŻYJESZ CZY TYLKO CZEKASZ?",
+    "CZY ZROBISZ DZISIAJ COŚ WAŻNEGO?",
+    "Twoje rzeczy nie będą za tobą tęsknić.",
+    "Chmury cię nie pamiętają.",
+    "Twój ulubiony kubek się rozbije.",
+    "Kiedy ostatnio czułeś się żywy?",
+    "Czy naprawdę dziś żyłeś?",
+    "Dlaczego wciąż przewijasz?",
+    "Staw czoła swoim lękom dziś.",
+    "Zrób skok, którego się boisz.",
+    "Twoje żale nie umrą z tobą.",
+    "Twoja rutyna cię nie zapamięta.",
+    "Czy pamiętasz zeszłoroczne marzenia?",
+    "Co cię wiąże z tą chwilą?",
+    "Czy żyjesz dla siebie?",
+    "WCIĄŻ TU?",
+    "CZAS NIE JEST PO TWOJEJ STRONIE.",
+    "CO CIĘ POWSTRZYMUJE?",
+    "Twoje meble zostaną sprzedane.",
+    "Twój głos zniknie.",
+    "Twój cień zna twoje sekrety.",
+    "Jakie historie zostawisz?"
+  ],
+  "main": [
+    {
+      "text": "Człowiek nie powinien bać się śmierci, ale powinien bać się, że nigdy nie zacznie żyć.",
+      "author": "Marek Aureliusz"
+    },
+    {
+      "text": "Strach przed śmiercią wynika ze strachu przed życiem. Człowiek, który żyje w pełni, jest gotów umrzeć w każdej chwili.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "Życie jest zbyt ważne, by traktować je poważnie.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "Jedynym sposobem na radzenie sobie z nieswobodnym światem jest stać się tak absolutnie wolnym, że samo twoje istnienie jest aktem buntu.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Dla dobrze zorganizowanego umysłu śmierć jest tylko kolejną wielką przygodą.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "Śmierć to sposób natury na powiedzenie ci, abyś zwolnił.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "Dzień, którego się boimy jako naszego ostatniego, jest tylko urodzinami wieczności.",
+      "author": "Seneka"
+    }
+  ]
+}

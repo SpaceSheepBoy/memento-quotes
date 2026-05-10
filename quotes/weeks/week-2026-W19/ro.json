@@ -1,0 +1,67 @@
+{
+  "notification": [
+    "Timpul tău se scurge.",
+    "Când vei înceta să amâni?",
+    "Garderoba ta nu te va plânge.",
+    "Cărțile tale preferate vor aduna praf.",
+    "Scaunul tău va rezista mai mult decât corpul tău.",
+    "Câte apusuri de soare mai ai?",
+    "Când ai privit ultima oară stelele?",
+    "Ce aștepți cu adevărat?",
+    "Fă pace cu trecutul tău.",
+    "Sună acel prieten acum.",
+    "Scrie acea scrisoare de scuze.",
+    "TRĂIEȘTI SAU DOAR AȘTEPȚI?",
+    "VEI FACE CA AZI SĂ CONTEZE?",
+    "Lucrurile tale nu te vor duce dorul.",
+    "Norii nu te amintesc.",
+    "Cana ta preferată se va sparge.",
+    "Când te-ai simțit ultima dată viu?",
+    "Ai trăit cu adevărat azi?",
+    "De ce încă derulezi?",
+    "Înfruntă-ți temerile azi.",
+    "Fă saltul de care te temi.",
+    "Regretele tale nu vor muri cu tine.",
+    "Rutina ta nu te va aminti.",
+    "Îți amintești visele de anul trecut?",
+    "Ce te leagă de acest moment?",
+    "Trăiești pentru tine?",
+    "ÎNCĂ AICI?",
+    "TIMPU NU E DE PARTEA TA.",
+    "CE TE ȚINE ÎNAPOI?",
+    "Mobilierul tău va fi vândut.",
+    "Vocea ta va dispărea.",
+    "Umbra ta îți cunoaște secretele.",
+    "Ce povești vei lăsa?"
+  ],
+  "main": [
+    {
+      "text": "Nu de moarte ar trebui să se teamă omul, ci ar trebui să se teamă că nu începe niciodată să trăiască.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "text": "Frica de moarte provine din frica de viață. Un om care trăiește pe deplin este pregătit să moară în orice moment.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "Viața este prea importantă pentru a fi luată în serios.",
+      "author": "Oscar Wilde"
+    },
+    {
+      "text": "Singura modalitate de a face față unei lumi ne-libere este să devii atât de liber încât însăși existența ta să fie un act de rebeliune.",
+      "author": "Albert Camus"
+    },
+    {
+      "text": "Pentru o minte bine organizată, moartea este doar următoarea mare aventură.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "Moartea este modul naturii de a-ți spune să încetinești.",
+      "author": "Dick Sharples"
+    },
+    {
+      "text": "Ziua pe care o temem ca fiind ultima noastră este doar aniversarea eternității.",
+      "author": "Seneca"
+    }
+  ]
+}
