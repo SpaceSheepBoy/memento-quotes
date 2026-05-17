@@ -1,0 +1,41 @@
+{
+  "notification": [
+    "Valmis katoamaan unohduksiin?",
+    "Puhelimesi kestää pidempään kuin sinä.",
+    "Tilisi unohdetaan.",
+    "Kuolemasi on varma.",
+    "Kehosi on väliaikainen suoja.",
+    "Tuoksusi haalistuu ajan myötä.",
+    "Entropia syö muistosi.",
+    "Tuolisi ei kaipaa sinua.",
+    "Oletko elänyt tänään?",
+    "Mikä on tekosyysi tänään?",
+    "Milloin viimeksi tunsit todella eläväsi?",
+    "Soita henkilölle, jota välttelet.",
+    "Kirjoita kirje nyt.",
+    "Soita puhelu.",
+    "Postilaatikkosi ei sure.",
+    "Sydämesi rientää kohti loppuaan.",
+    "Lempikappaleesi jää kuulematta.",
+    "Huominen on epävarma.",
+    "Nauraasi haalistuu.",
+    "Kuka muistaa tarinasi?",
+    "Mitä jätät jälkeesi?",
+    "Miksi odotat?",
+    "Aloita projekti tänään.",
+    "Perintösi on kirjoittamatta.",
+    "Milloin sanoit viimeksi hyvästit?",
+    "Hymyilitkö tänään tuntemattomalle?",
+    "Kuinka monta hengenvetoa sinulla on jäljellä?",
+    "Kuinka käytät tämän hetken?",
+    "Entä jos tänään on viimeinen päiväsi?",
+    "Kuka tulee hautajaisiisi?",
+    "Oletko todella läsnä?"
+  ],
+  "main": [
+    {
+      "text": "Elämä on vain kävelevä varjo, köyhä näyttelijä, joka tepastelee ja huolehtii tuntinsa lavalla ja sitten ei kuulu enää.",
+      "author": "William Shakespeare"
+    }
+  ]
+}

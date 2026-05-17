@@ -1,0 +1,41 @@
+{
+  "notification": [
+    "Siap menghilang dalam ketidakjelasan?",
+    "Ponselmu akan lebih lama darimu.",
+    "Akunmu akan dilupakan.",
+    "Kematianmu adalah kepastian.",
+    "Tubuhmu adalah tempat sementara.",
+    "Aromamu memudar seiring waktu.",
+    "Entropi memakan ingatanmu.",
+    "Kursimu tidak akan merindukanmu.",
+    "Apakah kamu hidup hari ini?",
+    "Apa alasanmu hari ini?",
+    "Kapan terakhir kali kamu merasa benar-benar hidup?",
+    "Hubungi orang yang kamu hindari.",
+    "Tulis suratnya sekarang.",
+    "Lakukan panggilan.",
+    "Kotak masukmu tidak akan berduka.",
+    "Jantungmu berlomba menuju akhirnya.",
+    "Lagu favoritmu tidak akan terdengar.",
+    "Besok tidak pasti.",
+    "Tawamu akan memudar.",
+    "Siapa yang akan mengingat ceritamu?",
+    "Apa yang akan kamu tinggalkan?",
+    "Mengapa kamu menunggu?",
+    "Mulai proyek hari ini.",
+    "Warisanmu belum tertulis.",
+    "Kapan terakhir kali kamu mengucapkan selamat tinggal?",
+    "Apakah kamu tersenyum pada orang asing hari ini?",
+    "Berapa banyak napas yang tersisa?",
+    "Bagaimana kamu akan menggunakan momen ini?",
+    "Bagaimana jika hari ini adalah hari terakhirmu?",
+    "Siapa yang akan menghadiri pemakamanmu?",
+    "Apakah kamu benar-benar hadir?"
+  ],
+  "main": [
+    {
+      "text": "Hidup hanyalah bayangan berjalan, pemain miskin yang berlagak dan gelisah selama satu jam di panggung dan kemudian tidak terdengar lagi.",
+      "author": "William Shakespeare"
+    }
+  ]
+}

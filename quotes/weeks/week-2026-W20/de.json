@@ -1,0 +1,41 @@
+{
+  "notification": [
+    "Bereit, in Vergessenheit zu geraten?",
+    "Dein Handy überdauert dich.",
+    "Deine Konten werden vergessen.",
+    "Dein Tod ist gewiss.",
+    "Dein Körper ist ein vorübergehender Unterschlupf.",
+    "Dein Duft verblasst mit der Zeit.",
+    "Entropie frisst deine Erinnerungen.",
+    "Dein Stuhl wird dich nicht vermissen.",
+    "Hast du heute gelebt?",
+    "Was ist deine Ausrede für heute?",
+    "Wann fühltest du dich zuletzt wirklich lebendig?",
+    "Ruf die Person an, die du vermeidest.",
+    "Schreib den Brief jetzt.",
+    "Mach den Anruf.",
+    "Dein Posteingang wird nicht trauern.",
+    "Dein Herz rast seinem Ende entgegen.",
+    "Dein Lieblingslied wird ungehört bleiben.",
+    "Morgen ist ungewiss.",
+    "Dein Lachen wird verblassen.",
+    "Wer wird sich an deine Geschichten erinnern?",
+    "Was wirst du hinterlassen?",
+    "Warum wartest du?",
+    "Beginne das Projekt heute.",
+    "Dein Vermächtnis ist ungeschrieben.",
+    "Wann hast du zuletzt Abschied gesagt?",
+    "Hast du heute einen Fremden angelächelt?",
+    "Wie viele Atemzüge hast du noch?",
+    "Wie wirst du diesen Moment nutzen?",
+    "Was, wenn heute dein letzter Tag ist?",
+    "Wer wird zu deiner Beerdigung kommen?",
+    "Bist du wirklich präsent?"
+  ],
+  "main": [
+    {
+      "text": "Das Leben ist nur ein wandelnder Schatten, ein armer Spieler, der seine Stunde auf der Bühne stolziert und bangt und dann nicht mehr gehört wird.",
+      "author": "William Shakespeare"
+    }
+  ]
+}

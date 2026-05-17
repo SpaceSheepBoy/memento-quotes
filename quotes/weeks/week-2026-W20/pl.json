@@ -1,0 +1,41 @@
+{
+  "notification": [
+    "Gotowy zniknąć w zapomnieniu?",
+    "Twój telefon cię przeżyje.",
+    "Twoje konta zostaną zapomniane.",
+    "Twoja śmierć jest pewna.",
+    "Twoje ciało to tymczasowe schronienie.",
+    "Twój zapach z czasem zanika.",
+    "Entropia pożera twoje wspomnienia.",
+    "Twój krzesło cię nie będzie tęsknić.",
+    "Czy żyłeś dziś?",
+    "Jaka jest twoja wymówka na dziś?",
+    "Kiedy ostatnio czułeś się naprawdę żywy?",
+    "Zadzwoń do osoby, której unikasz.",
+    "Napisz list teraz.",
+    "Zrób telefon.",
+    "Twoja skrzynka odbiorcza nie będzie żałować.",
+    "Twoje serce pędzi do końca.",
+    "Twoja ulubiona piosenka nie będzie słyszana.",
+    "Jutro jest niepewne.",
+    "Twój śmiech zniknie.",
+    "Kto zapamięta twoje historie?",
+    "Co zostawisz po sobie?",
+    "Dlaczego czekasz?",
+    "Rozpocznij projekt dziś.",
+    "Twoje dziedzictwo jest niepisane.",
+    "Kiedy ostatnio powiedziałeś do widzenia?",
+    "Czy uśmiechnąłeś się dziś do nieznajomego?",
+    "Ile oddechów ci zostało?",
+    "Jak wykorzystasz ten moment?",
+    "Co jeśli dziś jest twój ostatni dzień?",
+    "Kto przyjdzie na twój pogrzeb?",
+    "Czy jesteś naprawdę obecny?"
+  ],
+  "main": [
+    {
+      "text": "Życie to tylko chodzący cień, biedny gracz, który paraduje i martwi się swoją godziną na scenie, a potem nie jest już słyszany.",
+      "author": "William Shakespeare"
+    }
+  ]
+}

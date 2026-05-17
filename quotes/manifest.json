@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "latest_week": "2026-W19",
+  "latest_week": "2026-W20",
   "weeks": [
     {
       "id": "2026-W18",
@@ -13,6 +13,12 @@
       "url": "weeks/week-2026-W19",
       "notification_count": 33,
       "main_count": 7
+    },
+    {
+      "id": "2026-W20",
+      "url": "weeks/week-2026-W20",
+      "notification_count": 31,
+      "main_count": 1
     }
   ]
 }
